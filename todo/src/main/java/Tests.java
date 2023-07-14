@@ -23,16 +23,17 @@ public class Tests {
         // 検証
          boolean actual = sut.isPushed();
         assertEquals(false, actual);
-        }}
-//    @Test
-//     public void ボタンを押すとコーラがでる() {
-//         // 準備
-//         VendingMachine sut = new VendingMachine();
-//         // 実行
-//     sut.push();
-//         // 検証
-//         String actual = new 
-//         assertEquals(true, actual);
-//     }
-// }
+        }
+   @Test
+    public void ボタンを押すとコーラがでる() {
+        // 準備
+        VendingMachine sut = new VendingMachine();
+        // 実行
+    sut.push();
+    
+        // 検証
+        String actual 
+        assertEquals(true, actual);
+    }
+}
 
